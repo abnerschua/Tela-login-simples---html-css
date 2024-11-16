@@ -92,7 +92,10 @@ a{
 
 .botao-entrar:hover {
     background-color: #FFD123;
+    cursor: pointer;
 }
+
+
 
 .container-cadastro {
     display: flex;
