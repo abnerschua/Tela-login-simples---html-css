@@ -13,6 +13,7 @@ header {
     background-color: #FFD123 ;
     color: #081025 ;
     width: 100%;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
 .titulo-header {
     padding-left: 100px;
@@ -27,6 +28,7 @@ header img {
 main{
     display: flex;
     padding: 100px;
+    flex-wrap: wrap;
 }
 .container-login {
     display: flex;
@@ -34,6 +36,8 @@ main{
     padding: 10px;
     width: 350px;
     height: 400px;
+    margin-left: 40px;
+    margin-top: 10px;
     background-color: #2E3D68;
     border-radius: 10px;
     box-shadow: 23px 25px 3px -14px rgba(14, 13, 13, 0.1),0px 10px 15px -3px rgba(7, 7, 7, 0.1);  
@@ -48,6 +52,7 @@ main{
     background-color: #2E3D68;
     border-radius: 10px;
     margin-left: 40px;  
+    margin-top: 10px;
     box-shadow: 23px 25px 3px -14px rgba(14, 13, 13, 0.1),0px 10px 15px -3px rgba(7, 7, 7, 0.1);  
 }
 
@@ -94,8 +99,6 @@ a{
     background-color: #FFD123;
     cursor: pointer;
 }
-
-
 
 .container-cadastro {
     display: flex;
